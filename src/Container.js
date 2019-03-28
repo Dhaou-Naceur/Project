@@ -1,37 +1,35 @@
 import React, { Component } from "react";
 import "./Container.css";
 import { Link } from "react-router-dom";
+import Ima from "./Ima.jpeg";
+import MapCar from "./MapCar.jpg";
 class Container extends Component {
   render() {
     return (
       <div className="container">
-        <div className="user hh">
-          <h3>User </h3>
-          <img
-            className="user"
-            src="https://media.istockphoto.com/photos/man-offering-a-car-key-to-the-observer-picture-id945106186?k=6&m=945106186&s=612x612&w=0&h=TUk-4UyZUvITsh12pQ46dSSeqEV9S0WzXqMMrE7ZQ2w="
-            alt=""
-          />
-          <div>
+        <div class="card" style={{ width: "22rem" }}>
+          <img src={Ima} class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h3 class="card-title">User</h3>
+
             <Link to="/Login">
-              <input class="btn btn_solid" type="submit" value="Reserve now" />
+              <button class="btn" type="button">
+                Sign up
+              </button>
             </Link>
           </div>
-          
         </div>
 
-        <div className="valet hh">
-          <h3>Valet </h3>
-          <img
-            className="imgvalet"
-            src="https://assets.live.web.maginfrastructure.com/images/responsive/valet/valet-600.jpg"
-            alt=""
-          />
-          <div>
-          <Link to="/Login">
-            <input class="btn btn_solid" type="submit" value="join us" />
+        <div class="card" style={{ width: "22rem" }}>
+          <img src={MapCar} class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h2 class="card-title">Valet</h2>
+
+            <Link to="/Login">
+              <button class="btn" type="button">
+                Sign up
+              </button>
             </Link>
-            
           </div>
         </div>
       </div>

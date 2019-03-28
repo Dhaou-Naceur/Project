@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className="footerr">
         <footer class="page-footer font-small cyan darken-3">
           <div class="container">
             <div class="row">
@@ -51,7 +52,7 @@ class Footer extends Component {
             © 2019 Copyright:
             <a href="https://mdbootstrap.com/education/bootstrap/">
               {" "}
-              Parking Valet.tn
+              Valet.com
             </a>
           </div>
         </footer>

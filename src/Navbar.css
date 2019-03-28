@@ -4,3 +4,19 @@
     padding: 57px 148px;
     
 }
+
+.navbar-collapse{
+
+    padding-left: 618px;
+    
+}
+.navbar-color {
+    color: white !important;
+} 
+.home a{
+    padding: 20px;
+}
+.navbar{
+
+    height: 100px;
+}
