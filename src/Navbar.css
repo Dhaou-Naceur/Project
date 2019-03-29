@@ -17,6 +17,11 @@
     padding: 20px;
 }
 .navbar{
+    background-color: #2c3033b0;
+    height: 215px;
+}
+.logo{
 
+    width: 100px;
     height: 100px;
 }

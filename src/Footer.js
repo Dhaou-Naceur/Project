@@ -33,10 +33,10 @@ class Footer extends Component {
                       {" "}
                     </i>
                   </a>
-
+     {" "}
+                 
                   <a class="ins-ic">
                     <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
-                      {" "}
                     </i>
                   </a>
 

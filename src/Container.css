@@ -26,7 +26,7 @@ padding: 77px;
 
     font-family: inherit;
     -webkit-appearance: button;
-    background-color: rgb(7, 7, 7);
+    background-color: rgba(7, 7, 7, 0.14);
     border-radius: 0rem;
     
     
@@ -36,11 +36,39 @@ padding: 77px;
     text-align: center;
 
 }
-.btn-login{
+.tel{
 
-    color: yellow;
+    width: 50px;
+    height: 50px;
 }
 .card-img-top{
 
     height: 300px;
+}
+.phonenumber{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 328px;
+}
+.portable{
+    width: 50px;
+    height: 50px;
+}
+.email{
+    width: 50px;
+    height: 50px;
+
+}
+.position{
+    width: 50px;
+    height: 50px;
+}
+.card1{
+    border:20px solid #2125294a;
+    
+    width: 550px;
+    margin: 35px 397px;
+    color: #f9f4f4a3;
 }
